@@ -1,0 +1,82 @@
+html{
+    scroll-behavior: smooth;
+}
+/* تنسيق الجسم */
+body {
+    padding-top: 10px;
+    background-image: url('background1.png');
+    background-size: cover;
+    font-family: 'SUSE', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+
+/* تنسيق الصورة */
+img {
+    box-sizing: border-box;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: 5px;
+    width: 300px;
+    /* ملاحظة: لا تستخدم object-position في هذا السياق */
+}
+/* تنسيق العنوان */
+h1 {
+    font-family: 'Handjet', sans-serif;
+    color: whitesmoke;
+    position: absolute;
+    bottom: 380px;
+    left: 13px;
+    font-size: 120px; /* حجم أقل لجعل العنوان يتناسب مع الصفحة */
+}
+
+/* تنسيق الفقرة */
+p {
+    color: whitesmoke;
+    font-family: 'SUSE', sans-serif;
+    font-size: 25px;
+    position: relative;
+    bottom: -300px;
+    left: -2%;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 600px;
+}
+
+/* تنسيق الأزرار */
+.button {
+    background-color: #000000;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    display: inline-block;
+    width: 42%;
+    margin: 10px 5%;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button-facebook {
+    background-color: #4267B2;
+    position:absolute;
+    left: 40%;
+    bottom:400px; /* لون زر فيسبوك */
+}
+
+.button-discord {
+    position: absolute;
+    bottom: 400px;
+    right: 40%;
+    background-color: #7289DA; /* لون زر ديسكورد */
+}
+
+/* تأثير hover على الأزرار */
+.button:hover {
+    background-color: #333333; /* لون أغمق عند التحويم */
+    transform: scale(1.05); /* تكبير طفيف عند التحويم */
+}
